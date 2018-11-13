@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.example</groupId>
+	<artifactId>demo222</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>demo</name>
+	<description>Demo project for Spring Boot</description>
+
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-console -->
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-console</artifactId>
+    <version>5.7.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-core -->
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-core</artifactId>
+    <version>5.7.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-jaas -->
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-jaas</artifactId>
+    <version>5.7.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-pool -->
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-pool</artifactId>
+    <version>5.7.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-pool -->
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-pool</artifactId>
+    <version>5.5.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.activemq.protobuf/activemq-protobuf -->
+<dependency>
+    <groupId>org.apache.activemq.protobuf</groupId>
+    <artifactId>activemq-protobuf</artifactId>
+    <version>1.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-web -->
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-web</artifactId>
+    <version>5.7.0</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.ansj/ansj_lucene4_plug -->
+<dependency>
+    <groupId>org.ansj</groupId>
+    <artifactId>ansj_lucene4_plug</artifactId>
+    <version>5.0.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.ansj/ansj_lucene5_plug -->
+<dependency>
+    <groupId>org.ansj</groupId>
+    <artifactId>ansj_lucene5_plug</artifactId>
+    <version>5.1.1.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.ansj/ansj_seg -->
+<dependency>
+    <groupId>org.ansj</groupId>
+    <artifactId>ansj_seg</artifactId>
+    <version>5.1.3</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.ant/ant -->
+<dependency>
+    <groupId>org.apache.ant</groupId>
+    <artifactId>ant</artifactId>
+    <version>1.8.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/antlr/antlr -->
+<dependency>
+    <groupId>antlr</groupId>
+    <artifactId>antlr</artifactId>
+    <version>2.7.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/antlr/antlr -->
+<dependency>
+    <groupId>antlr</groupId>
+    <artifactId>antlr</artifactId>
+    <version>2.7.7</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/aopalliance/aopalliance -->
+<dependency>
+    <groupId>aopalliance</groupId>
+    <artifactId>aopalliance</artifactId>
+    <version>1.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.james/apache-mime4j-benchmark -->
+<dependency>
+    <groupId>org.apache.james</groupId>
+    <artifactId>apache-mime4j-benchmark</artifactId>
+    <version>0.7.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.james/apache-mime4j-benchmark -->
+<dependency>
+    <groupId>org.apache.james</groupId>
+    <artifactId>apache-mime4j-benchmark</artifactId>
+    <version>0.8.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.james/apache-mime4j-storage -->
+<dependency>
+    <groupId>org.apache.james</groupId>
+    <artifactId>apache-mime4j-storage</artifactId>
+    <version>0.7.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.james/apache-mime4j-storage -->
+<dependency>
+    <groupId>org.apache.james</groupId>
+    <artifactId>apache-mime4j-storage</artifactId>
+    <version>0.8.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/asm/asm -->
+<dependency>
+    <groupId>asm</groupId>
+    <artifactId>asm</artifactId>
+    <version>3.3.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjtools -->
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjtools</artifactId>
+    <version>1.8.9</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.atlassian.event/atlassian-event -->
+<!-- <dependency>
+    <groupId>com.atlassian.event</groupId>
+    <artifactId>atlassian-event</artifactId>
+    <version>4.0.0-07963a34</version>
+    <scope>provided</scope>
+</dependency> -->
+
+<!-- https://mvnrepository.com/artifact/com.atlassian.httpclient/atlassian-httpclient-apache-httpcomponents -->
+<dependency>
+    <groupId>com.atlassian.httpclient</groupId>
+    <artifactId>atlassian-httpclient-apache-httpcomponents</artifactId>
+    <version>0.11.0</version>
+    <scope>runtime</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.atlassian.httpclient/atlassian-httpclient-api -->
+<dependency>
+    <groupId>com.atlassian.httpclient</groupId>
+    <artifactId>atlassian-httpclient-api</artifactId>
+    <version>0.11.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.atlassian.httpclient/atlassian-httpclient-spi -->
+<dependency>
+    <groupId>com.atlassian.httpclient</groupId>
+    <artifactId>atlassian-httpclient-spi</artifactId>
+    <version>0.11.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.atlassian.inject/atlassian-inject -->
+<dependency>
+    <groupId>com.atlassian.inject</groupId>
+    <artifactId>atlassian-inject</artifactId>
+    <version>1.0.0.beta1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.atlassian.inject/atlassian-inject -->
+<dependency>
+    <groupId>com.atlassian.inject</groupId>
+    <artifactId>atlassian-inject</artifactId>
+    <version>1.0.0</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.atlassian.plugins/atlassian-plugins-core -->
+<dependency>
+    <groupId>com.atlassian.plugins</groupId>
+    <artifactId>atlassian-plugins-core</artifactId>
+    <version>2.14.0-m5</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.atlassian.plugins/atlassian-plugins-osgi -->
+<dependency>
+    <groupId>com.atlassian.plugins</groupId>
+    <artifactId>atlassian-plugins-osgi</artifactId>
+    <version>2.14.0-m5</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.atlassian.plugins/atlassian-plugins-osgi-events -->
+<dependency>
+    <groupId>com.atlassian.plugins</groupId>
+    <artifactId>atlassian-plugins-osgi-events</artifactId>
+    <version>2.14.0-m5</version>
+    <scope>provided</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.atlassian.util.concurrent/atlassian-util-concurrent -->
+<dependency>
+    <groupId>com.atlassian.util.concurrent</groupId>
+    <artifactId>atlassian-util-concurrent</artifactId>
+    <version>2.4.1</version>
+    <scope>provided</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/avalon-logkit/avalon-logkit -->
+<dependency>
+    <groupId>avalon-logkit</groupId>
+    <artifactId>avalon-logkit</artifactId>
+    <version>2.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.avro/avro -->
+<dependency>
+    <groupId>org.apache.avro</groupId>
+    <artifactId>avro</artifactId>
+    <version>1.7.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.ws.commons.axiom/axiom-api -->
+<dependency>
+    <groupId>org.apache.ws.commons.axiom</groupId>
+    <artifactId>axiom-api</artifactId>
+    <version>1.2.12</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.ws.commons.axiom/axiom-dom -->
+<dependency>
+    <groupId>org.apache.ws.commons.axiom</groupId>
+    <artifactId>axiom-dom</artifactId>
+    <version>1.2.12</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.ws.commons.axiom/axiom-impl -->
+<dependency>
+    <groupId>org.apache.ws.commons.axiom</groupId>
+    <artifactId>axiom-impl</artifactId>
+    <version>1.2.12</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.axis/axis -->
+<dependency>
+    <groupId>org.apache.axis</groupId>
+    <artifactId>axis</artifactId>
+    <version>1.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.axis2/axis2-adb -->
+<dependency>
+    <groupId>org.apache.axis2</groupId>
+    <artifactId>axis2-adb</artifactId>
+    <version>1.6.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.axis2/axis2-kernel -->
+<dependency>
+    <groupId>org.apache.axis2</groupId>
+    <artifactId>axis2-kernel</artifactId>
+    <version>1.6.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.axis2/axis2-transport-http -->
+<dependency>
+    <groupId>org.apache.axis2</groupId>
+    <artifactId>axis2-transport-http</artifactId>
+    <version>1.6.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.axis2/axis2-transport-local -->
+<dependency>
+    <groupId>org.apache.axis2</groupId>
+    <artifactId>axis2-transport-local</artifactId>
+    <version>1.6.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/axis/axis-ant -->
+<dependency>
+    <groupId>axis</groupId>
+    <artifactId>axis-ant</artifactId>
+    <version>1.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/backport-util-concurrent/backport-util-concurrent -->
+<dependency>
+    <groupId>backport-util-concurrent</groupId>
+    <artifactId>backport-util-concurrent</artifactId>
+    <version>3.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.tinkerpop.blueprints/blueprints-core -->
+<dependency>
+    <groupId>com.tinkerpop.blueprints</groupId>
+    <artifactId>blueprints-core</artifactId>
+    <version>2.5.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/c3p0/c3p0 -->
+<dependency>
+    <groupId>c3p0</groupId>
+    <artifactId>c3p0</artifactId>
+    <version>0.9.1.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.jasig.cas.client/cas-client-core -->
+<dependency>
+    <groupId>org.jasig.cas.client</groupId>
+    <artifactId>cas-client-core</artifactId>
+    <version>3.4.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/cglib/cglib -->
+<dependency>
+    <groupId>cglib</groupId>
+    <artifactId>cglib</artifactId>
+    <version>2.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/cglib/cglib -->
+<dependency>
+    <groupId>cglib</groupId>
+    <artifactId>cglib</artifactId>
+    <version>2.2.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/cglib/cglib-nodep -->
+<dependency>
+    <groupId>cglib</groupId>
+    <artifactId>cglib-nodep</artifactId>
+    <version>2.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/cglib/cglib-nodep -->
+<dependency>
+    <groupId>cglib</groupId>
+    <artifactId>cglib-nodep</artifactId>
+    <version>2.2.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.8.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-chain/commons-chain -->
+<dependency>
+    <groupId>commons-chain</groupId>
+    <artifactId>commons-chain</artifactId>
+    <version>1.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
+<dependency>
+    <groupId>commons-cli</groupId>
+    <artifactId>commons-cli</artifactId>
+    <version>1.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.7</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.2.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections4</artifactId>
+    <version>4.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-compress</artifactId>
+    <version>1.8.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+<dependency>
+    <groupId>commons-configuration</groupId>
+    <artifactId>commons-configuration</artifactId>
+    <version>1.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
+<dependency>
+    <groupId>commons-dbcp</groupId>
+    <artifactId>commons-dbcp</artifactId>
+    <version>1.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-dbutils/commons-dbutils -->
+<dependency>
+    <groupId>commons-dbutils</groupId>
+    <artifactId>commons-dbutils</artifactId>
+    <version>1.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-digester/commons-digester -->
+<dependency>
+    <groupId>commons-digester</groupId>
+    <artifactId>commons-digester</artifactId>
+    <version>2.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-discovery/commons-discovery -->
+<dependency>
+    <groupId>commons-discovery</groupId>
+    <artifactId>commons-discovery</artifactId>
+    <version>0.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
+<dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.2.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-httpclient/commons-httpclient -->
+<dependency>
+    <groupId>commons-httpclient</groupId>
+    <artifactId>commons-httpclient</artifactId>
+    <version>3.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+<dependency>
+    <groupId>commons-lang</groupId>
+    <artifactId>commons-lang</artifactId>
+    <version>2.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.0.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.1.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+<dependency>
+    <groupId>commons-net</groupId>
+    <artifactId>commons-net</artifactId>
+    <version>3.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-pool/commons-pool -->
+<dependency>
+    <groupId>commons-pool</groupId>
+    <artifactId>commons-pool</artifactId>
+    <version>1.5.6</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-pool/commons-pool -->
+<dependency>
+    <groupId>commons-pool</groupId>
+    <artifactId>commons-pool</artifactId>
+    <version>1.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+<dependency>
+    <groupId>dom4j</groupId>
+    <artifactId>dom4j</artifactId>
+    <version>1.6.1</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.ehcache/ehcache -->
+<dependency>
+    <groupId>org.ehcache</groupId>
+    <artifactId>ehcache</artifactId>
+    <version>3.4.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
+<dependency>
+    <groupId>org.elasticsearch</groupId>
+    <artifactId>elasticsearch</artifactId>
+    <version>1.2.1</version>
+</dependency>
+
+<!-- envelope? https://mvnrepository.com/artifact/io.othree/envelope -->
+<dependency>
+    <groupId>io.othree</groupId>
+    <artifactId>envelope_2.12</artifactId>
+    <version>1.0.1</version>
+</dependency>
+
+<!-- expression-analyzer -->
+
+
+<!-- https://mvnrepository.com/artifact/net.sf.ezmorph/ezmorph -->
+<dependency>
+    <groupId>net.sf.ezmorph</groupId>
+    <artifactId>ezmorph</artifactId>
+    <version>1.0.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>fastjson</artifactId>
+    <version>1.2.47</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>fastjson</artifactId>
+    <version>1.2.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eweb4j/fel -->
+<dependency>
+    <groupId>org.eweb4j</groupId>
+    <artifactId>fel</artifactId>
+    <version>0.8</version>
+</dependency>
+
+<!-- findscn -->
+
+<!-- https://mvnrepository.com/artifact/it.sauronsoftware/ftp4j 1.7.2? -->
+<!-- <dependency>
+    <groupId>it.sauronsoftware</groupId>
+    <artifactId>ftp4j</artifactId>
+    <version>1.6</version>
+</dependency> -->
+
+<!-- https://mvnrepository.com/artifact/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec -->
+<dependency>
+    <groupId>org.apache.geronimo.specs</groupId>
+    <artifactId>geronimo-j2ee-management_1.1_spec</artifactId>
+    <version>1.0.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.geronimo.specs/geronimo-jms_1.1_spec -->
+<dependency>
+    <groupId>org.apache.geronimo.specs</groupId>
+    <artifactId>geronimo-jms_1.1_spec</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.geronimo.specs</groupId>
+    <artifactId>geronimo-jta_1.0.1B_spec</artifactId>
+    <version>1.0.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.geronimo.specs/geronimo-jta_1.1_spec -->
+<dependency>
+    <groupId>org.apache.geronimo.specs</groupId>
+    <artifactId>geronimo-jta_1.1_spec</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+
+<!-- gun-crypto -->
+
+<dependency>
+    <groupId>com.tinkerpop.gremlin</groupId>
+    <artifactId>gremlin-groovy</artifactId>
+    <version>2.5.0</version>
+</dependency>
+<dependency>
+    <groupId>com.tinkerpop.gremlin</groupId>
+    <artifactId>gremlin-java</artifactId>
+    <version>2.5.0</version>
+</dependency>
+
+<dependency>
+    <groupId>com.thinkaurelius.groovy-shaded-asm</groupId>
+    <artifactId>groovy-shaded-asm</artifactId>
+    <version>1.8.9</version>
+</dependency>
+
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.2.1</version>
+</dependency>
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>14.0.1</version>
+</dependency>
+
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>15.0</version>
+</dependency>
+
+
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-annotations</artifactId>
+    <version>2.2.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-auth</artifactId>
+    <version>2.2.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-auth</artifactId>
+    <version>2.6.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-client</artifactId>
+    <version>2.2.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-common</artifactId>
+    <version>2.2.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-common</artifactId>
+    <version>2.6.1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-core</artifactId>
+    <version>1.0.3</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-core</artifactId>
+    <version>1.0.4</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-hdfs</artifactId>
+    <version>2.2.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-hdfs</artifactId>
+    <version>2.5.1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-hdfs</artifactId>
+    <version>2.6.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-mapreduce-client-app</artifactId>
+    <version>2.5.2</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-mapreduce-client-common</artifactId>
+    <version>2.5.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-mapreduce-client-core</artifactId>
+    <version>2.5.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-mapreduce-client-hs</artifactId>
+    <version>2.5.2</version>
+    <scope>test</scope>
+</dependency>
+
+
+<!--hadoop-mapreduce-client-hs-plugins-2.5.2-->
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-mapreduce-client-jobclient</artifactId>
+    <version>2.5.2</version>
+    <scope>provided</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-mapreduce-client-shuffle</artifactId>
+    <version>2.5.2</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-mapreduce-examples</artifactId>
+    <version>2.5.2</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-yarn-api</artifactId>
+    <version>2.5.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-yarn-client</artifactId>
+    <version>2.5.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-yarn-common</artifactId>
+    <version>2.5.2</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest-library</artifactId>
+    <version>1.3</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase</artifactId>
+    <version>0.94.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase</artifactId>
+    <version>0.94.10</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase-client</artifactId>
+    <version>0.98.5-hadoop2</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase-common</artifactId>
+    <version>0.98.5-hadoop2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase-hadoop2-compat</artifactId>
+    <version>1.0.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase-hadoop-compat</artifactId>
+    <version>1.0.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase-protocol</artifactId>
+    <version>0.98.5-hadoop2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase-thrift</artifactId>
+    <version>0.98.5-hadoop2</version>
+</dependency>
+
+<!-- high-scala-lib-1.1.2  hotwords1.0  -->
+
+<dependency>
+    <groupId>com.carrotsearch</groupId>
+    <artifactId>hppc</artifactId>
+    <version>0.6.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.hsqldb</groupId>
+    <artifactId>hsqldb</artifactId>
+    <version>2.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.htmlparser</groupId>
+    <artifactId>htmllexer</artifactId>
+    <version>2.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.htmlparser</groupId>
+    <artifactId>htmlparser</artifactId>
+    <version>2.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.cloudera.htrace</groupId>
+    <artifactId>htrace-core</artifactId>
+    <version>2.04</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.2.3</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpcore</artifactId>
+    <version>4.2.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpmime</artifactId>
+    <version>4.2.3</version>
+</dependency>
+
+
+	</dependencies>
+
+
+
+</project>
