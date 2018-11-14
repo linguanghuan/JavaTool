@@ -10,13 +10,14 @@
 
     <name>demo</name>
     <description>Demo project for Spring Boot</description>
-
     <!--
 https://maven.atlassian.com/content/repositories/atlassian-public/
 http://repo.boundlessgeo.com/main/
 http://clojars.org/repo/
          http://maven.jahia.org/maven2/
-         -->     
+         http://repo.spring.io/plugins-release/
+         -->    
+
     <!--spring-3.1.2.RELEASE-->
     <!--spring-3.2.10.RELEASE-->
     <!--spring-3.1.3.RELEASE-->
@@ -29,47 +30,47 @@ http://clojars.org/repo/
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-console -->
+
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-console</artifactId>
             <version>5.7.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-core -->
+
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-core</artifactId>
             <version>5.7.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-jaas -->
+
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-jaas</artifactId>
             <version>5.7.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-pool -->
+
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-pool</artifactId>
             <version>5.7.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-pool -->
+
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-pool</artifactId>
             <version>5.5.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.activemq.protobuf/activemq-protobuf -->
+
         <dependency>
             <groupId>org.apache.activemq.protobuf</groupId>
             <artifactId>activemq-protobuf</artifactId>
             <version>1.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-web -->
+
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-web</artifactId>
@@ -77,88 +78,88 @@ http://clojars.org/repo/
         </dependency>
 
 
-        <!-- https://mvnrepository.com/artifact/org.ansj/ansj_lucene4_plug -->
+
         <dependency>
             <groupId>org.ansj</groupId>
             <artifactId>ansj_lucene4_plug</artifactId>
             <version>5.0.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.ansj/ansj_lucene5_plug -->
+
         <dependency>
             <groupId>org.ansj</groupId>
             <artifactId>ansj_lucene5_plug</artifactId>
             <version>5.1.1.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.ansj/ansj_seg -->
+
         <dependency>
             <groupId>org.ansj</groupId>
             <artifactId>ansj_seg</artifactId>
             <version>5.1.3</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.ant/ant -->
+
         <dependency>
             <groupId>org.apache.ant</groupId>
             <artifactId>ant</artifactId>
             <version>1.8.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/antlr/antlr -->
+
         <dependency>
             <groupId>antlr</groupId>
             <artifactId>antlr</artifactId>
             <version>2.7.5</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/antlr/antlr -->
+
         <dependency>
             <groupId>antlr</groupId>
             <artifactId>antlr</artifactId>
             <version>2.7.7</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/aopalliance/aopalliance -->
+
         <dependency>
             <groupId>aopalliance</groupId>
             <artifactId>aopalliance</artifactId>
             <version>1.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.james/apache-mime4j-benchmark -->
+
         <dependency>
             <groupId>org.apache.james</groupId>
             <artifactId>apache-mime4j-benchmark</artifactId>
             <version>0.7.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.james/apache-mime4j-benchmark -->
+
         <dependency>
             <groupId>org.apache.james</groupId>
             <artifactId>apache-mime4j-benchmark</artifactId>
             <version>0.8.2</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.james/apache-mime4j-storage -->
+
         <dependency>
             <groupId>org.apache.james</groupId>
             <artifactId>apache-mime4j-storage</artifactId>
             <version>0.7.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.james/apache-mime4j-storage -->
+
         <dependency>
             <groupId>org.apache.james</groupId>
             <artifactId>apache-mime4j-storage</artifactId>
             <version>0.8.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/asm/asm -->
+
         <dependency>
             <groupId>asm</groupId>
             <artifactId>asm</artifactId>
             <version>3.3.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjtools -->
+
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjtools</artifactId>
             <version>1.8.9</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.atlassian.event/atlassian-event -->
+
         <!-- <dependency>
             <groupId>com.atlassian.event</groupId>
             <artifactId>atlassian-event</artifactId>
@@ -166,34 +167,34 @@ http://clojars.org/repo/
             <scope>provided</scope>
         </dependency> -->
 
-        <!-- https://mvnrepository.com/artifact/com.atlassian.httpclient/atlassian-httpclient-apache-httpcomponents -->
+
         <dependency>
             <groupId>com.atlassian.httpclient</groupId>
             <artifactId>atlassian-httpclient-apache-httpcomponents</artifactId>
             <version>0.11.0</version>
             <scope>runtime</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.atlassian.httpclient/atlassian-httpclient-api -->
+
         <dependency>
             <groupId>com.atlassian.httpclient</groupId>
             <artifactId>atlassian-httpclient-api</artifactId>
             <version>0.11.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.atlassian.httpclient/atlassian-httpclient-spi -->
+
         <dependency>
             <groupId>com.atlassian.httpclient</groupId>
             <artifactId>atlassian-httpclient-spi</artifactId>
             <version>0.11.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.atlassian.inject/atlassian-inject -->
+
         <dependency>
             <groupId>com.atlassian.inject</groupId>
             <artifactId>atlassian-inject</artifactId>
             <version>1.0.0.beta1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.atlassian.inject/atlassian-inject -->
+
         <dependency>
             <groupId>com.atlassian.inject</groupId>
             <artifactId>atlassian-inject</artifactId>
@@ -201,19 +202,18 @@ http://clojars.org/repo/
         </dependency>
 
 
-        <!-- https://mvnrepository.com/artifact/com.atlassian.plugins/atlassian-plugins-core -->
         <dependency>
             <groupId>com.atlassian.plugins</groupId>
             <artifactId>atlassian-plugins-core</artifactId>
             <version>2.14.0-m5</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.atlassian.plugins/atlassian-plugins-osgi -->
+
         <dependency>
             <groupId>com.atlassian.plugins</groupId>
             <artifactId>atlassian-plugins-osgi</artifactId>
             <version>2.14.0-m5</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.atlassian.plugins/atlassian-plugins-osgi-events -->
+
         <dependency>
             <groupId>com.atlassian.plugins</groupId>
             <artifactId>atlassian-plugins-osgi-events</artifactId>
@@ -221,7 +221,7 @@ http://clojars.org/repo/
             <scope>provided</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.atlassian.util.concurrent/atlassian-util-concurrent -->
+
         <dependency>
             <groupId>com.atlassian.util.concurrent</groupId>
             <artifactId>atlassian-util-concurrent</artifactId>
@@ -229,31 +229,31 @@ http://clojars.org/repo/
             <scope>provided</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/avalon-logkit/avalon-logkit -->
+
         <dependency>
             <groupId>avalon-logkit</groupId>
             <artifactId>avalon-logkit</artifactId>
             <version>2.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.avro/avro -->
+
         <dependency>
             <groupId>org.apache.avro</groupId>
             <artifactId>avro</artifactId>
             <version>1.7.4</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.ws.commons.axiom/axiom-api -->
+
         <dependency>
             <groupId>org.apache.ws.commons.axiom</groupId>
             <artifactId>axiom-api</artifactId>
             <version>1.2.12</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.ws.commons.axiom/axiom-dom -->
+
         <dependency>
             <groupId>org.apache.ws.commons.axiom</groupId>
             <artifactId>axiom-dom</artifactId>
             <version>1.2.12</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.ws.commons.axiom/axiom-impl -->
+
         <dependency>
             <groupId>org.apache.ws.commons.axiom</groupId>
             <artifactId>axiom-impl</artifactId>
@@ -261,248 +261,248 @@ http://clojars.org/repo/
         </dependency>
 
 
-        <!-- https://mvnrepository.com/artifact/org.apache.axis/axis -->
-        <dependency>
+
+<!--         <dependency>
             <groupId>org.apache.axis</groupId>
             <artifactId>axis</artifactId>
             <version>1.4</version>
         </dependency>
+ -->
 
-        <!-- https://mvnrepository.com/artifact/org.apache.axis2/axis2-adb -->
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-adb</artifactId>
             <version>1.6.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.axis2/axis2-kernel -->
+
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-kernel</artifactId>
             <version>1.6.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.axis2/axis2-transport-http -->
+
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-transport-http</artifactId>
             <version>1.6.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.axis2/axis2-transport-local -->
+
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-transport-local</artifactId>
             <version>1.6.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/axis/axis-ant -->
-        <dependency>
+
+<!--         <dependency>
             <groupId>axis</groupId>
             <artifactId>axis-ant</artifactId>
             <version>1.4</version>
-        </dependency>
+        </dependency> -->
 
-        <!-- https://mvnrepository.com/artifact/backport-util-concurrent/backport-util-concurrent -->
+
         <dependency>
             <groupId>backport-util-concurrent</groupId>
             <artifactId>backport-util-concurrent</artifactId>
             <version>3.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.tinkerpop.blueprints/blueprints-core -->
+
         <dependency>
             <groupId>com.tinkerpop.blueprints</groupId>
             <artifactId>blueprints-core</artifactId>
             <version>2.5.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/c3p0/c3p0 -->
+
         <dependency>
             <groupId>c3p0</groupId>
             <artifactId>c3p0</artifactId>
             <version>0.9.1.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.jasig.cas.client/cas-client-core -->
+
         <dependency>
             <groupId>org.jasig.cas.client</groupId>
             <artifactId>cas-client-core</artifactId>
             <version>3.4.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
             <version>2.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
             <version>2.2.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/cglib/cglib-nodep -->
+
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib-nodep</artifactId>
             <version>2.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/cglib/cglib-nodep -->
+
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib-nodep</artifactId>
             <version>2.2.2</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
             <version>1.8.3</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-chain/commons-chain -->
+
         <dependency>
             <groupId>commons-chain</groupId>
             <artifactId>commons-chain</artifactId>
             <version>1.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
+
         <dependency>
             <groupId>commons-cli</groupId>
             <artifactId>commons-cli</artifactId>
             <version>1.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>1.7</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
             <version>3.2.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
             <version>4.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-compress</artifactId>
             <version>1.8.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+
         <dependency>
             <groupId>commons-configuration</groupId>
             <artifactId>commons-configuration</artifactId>
             <version>1.6</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
+
         <dependency>
             <groupId>commons-dbcp</groupId>
             <artifactId>commons-dbcp</artifactId>
             <version>1.4</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-dbutils/commons-dbutils -->
+
         <dependency>
             <groupId>commons-dbutils</groupId>
             <artifactId>commons-dbutils</artifactId>
             <version>1.5</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-digester/commons-digester -->
+
         <dependency>
             <groupId>commons-digester</groupId>
             <artifactId>commons-digester</artifactId>
             <version>2.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-discovery/commons-discovery -->
+
         <dependency>
             <groupId>commons-discovery</groupId>
             <artifactId>commons-discovery</artifactId>
             <version>0.2</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
+
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
             <version>1.2.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-httpclient/commons-httpclient -->
+
         <dependency>
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
             <version>3.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
             <version>1.0.4</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
             <version>1.1.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
             <version>3.3</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-pool/commons-pool -->
+
         <dependency>
             <groupId>commons-pool</groupId>
             <artifactId>commons-pool</artifactId>
             <version>1.5.6</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-pool/commons-pool -->
+
         <dependency>
             <groupId>commons-pool</groupId>
             <artifactId>commons-pool</artifactId>
             <version>1.6</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+
         <dependency>
             <groupId>dom4j</groupId>
             <artifactId>dom4j</artifactId>
@@ -510,21 +510,21 @@ http://clojars.org/repo/
         </dependency>
 
 
-        <!-- https://mvnrepository.com/artifact/org.ehcache/ehcache -->
+
         <dependency>
             <groupId>org.ehcache</groupId>
             <artifactId>ehcache</artifactId>
             <version>3.4.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
+
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
             <version>1.2.1</version>
         </dependency>
 
-        <!-- envelope? https://mvnrepository.com/artifact/io.othree/envelope -->
+
         <dependency>
             <groupId>io.othree</groupId>
             <artifactId>envelope_2.12</artifactId>
@@ -534,27 +534,27 @@ http://clojars.org/repo/
         <!-- expression-analyzer -->
 
 
-        <!-- https://mvnrepository.com/artifact/net.sf.ezmorph/ezmorph -->
+
         <dependency>
             <groupId>net.sf.ezmorph</groupId>
             <artifactId>ezmorph</artifactId>
             <version>1.0.6</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.47</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.eweb4j/fel -->
+
         <dependency>
             <groupId>org.eweb4j</groupId>
             <artifactId>fel</artifactId>
@@ -563,21 +563,21 @@ http://clojars.org/repo/
 
         <!-- findscn -->
 
-        <!-- https://mvnrepository.com/artifact/it.sauronsoftware/ftp4j 1.7.2? -->
+
         <!-- <dependency>
             <groupId>it.sauronsoftware</groupId>
             <artifactId>ftp4j</artifactId>
             <version>1.6</version>
         </dependency> -->
 
-        <!-- https://mvnrepository.com/artifact/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec -->
+
         <dependency>
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-j2ee-management_1.1_spec</artifactId>
             <version>1.0.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.geronimo.specs/geronimo-jms_1.1_spec -->
+
         <dependency>
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-jms_1.1_spec</artifactId>
@@ -590,7 +590,7 @@ http://clojars.org/repo/
             <version>1.0.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.geronimo.specs/geronimo-jta_1.1_spec -->
+
         <dependency>
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-jta_1.1_spec</artifactId>
@@ -878,17 +878,17 @@ http://clojars.org/repo/
             <version>2012_u6</version>
         </dependency>
 
-        <dependency>
+<!--         <dependency>
             <groupId>com.lowagie</groupId>
             <artifactId>itext</artifactId>
             <version>4.2.1</version>
-        </dependency>
+        </dependency> -->
 
-        <dependency>
+<!--         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>itext-asian</artifactId>
             <version>5.2.0</version>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
@@ -930,18 +930,18 @@ http://clojars.org/repo/
             <version>1.1.1</version>
         </dependency>
 
-        <dependency>
+<!--         <dependency>
             <groupId>javax.xml</groupId>
             <artifactId>jaxrpc</artifactId>
             <version>1.1</version>
-        </dependency>
+        </dependency> -->
 
         <!--	http://maven.jahia.org/maven2/  -->
-        <dependency>
+<!--         <dependency>
             <groupId>jaxrpc</groupId>
             <artifactId>jaxrpc</artifactId>
             <version>1.1</version>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>jdom</groupId>
@@ -1051,12 +1051,12 @@ http://clojars.org/repo/
             <version>20160810</version>
         </dependency>
 
-        <dependency>
+<!--         <dependency>
             <groupId>net.sf.json-lib</groupId>
             <artifactId>json-lib</artifactId>
             <version>2.4</version>
         </dependency>
-
+ -->
 
         <dependency>
             <groupId>org.jsoup</groupId>
@@ -1338,7 +1338,7 @@ http://clojars.org/repo/
             <version>3.0.1</version>
         </dependency>
 
-
+<!-- 
         <dependency>
             <groupId>org.neo4j</groupId>
             <artifactId>neo4j-kernel</artifactId>
@@ -1349,7 +1349,7 @@ http://clojars.org/repo/
             <groupId>org.neo4j</groupId>
             <artifactId>neo4j-rest-graphdb</artifactId>
             <version>2.0.1</version>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>io.netty</groupId>
@@ -1367,12 +1367,12 @@ http://clojars.org/repo/
             <version>1.2</version>
             <scope>test</scope>
         </dependency>
-
+<!-- 
         <dependency>
             <groupId>ojdbc</groupId>
             <artifactId>ojdbc</artifactId>
             <version>14</version>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>org.restlet.jee</groupId>
@@ -1504,11 +1504,11 @@ http://clojars.org/repo/
             <version>3.10.1</version>
         </dependency>
 
-        <dependency>
+<!--         <dependency>
             <groupId>saaj</groupId>
             <artifactId>saaj</artifactId>
             <version>1.1</version>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>org.scala-lang</groupId>
@@ -1598,132 +1598,6 @@ http://clojars.org/repo/
             <artifactId>spatial4j</artifactId>
             <version>0.4.1</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Expression Language (depends on spring-core) Define this if you use
-         Spring Expression APIs (org.springframework.expression.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-expression</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Bean Factory and JavaBeans utilities (depends on spring-core) Define
-         this if you use Spring Bean APIs (org.springframework.beans.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Aspect Oriented Programming (AOP) Framework (depends on spring-core,
-         spring-beans) Define this if you use Spring AOP APIs (org.springframework.aop.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Application Context (depends on spring-core, spring-expression, spring-aop,
-         spring-beans) This is the central artifact for Spring's Dependency Injection
-         Container and is generally always defined -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Various Application Context utilities, including EhCache, JavaMail,
-         Quartz, and Freemarker integration Define this if you need any of these integrations -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context-support</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Transaction Management Abstraction (depends on spring-core, spring-beans,
-         spring-aop, spring-context) Define this if you use Spring Transactions or
-         DAO Exception Hierarchy (org.springframework.transaction.*/org.springframework.dao.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-tx</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- JDBC Data Access Library (depends on spring-core, spring-beans, spring-context,
-         spring-tx) Define this if you use Spring's JdbcTemplate API (org.springframework.jdbc.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Object-to-Relation-Mapping (ORM) integration with Hibernate, JPA,
-         and iBatis. (depends on spring-core, spring-beans, spring-context, spring-tx)
-         Define this if you need ORM (org.springframework.orm.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-orm</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Object-to-XML Mapping (OXM) abstraction and integration with JAXB,
-         JiBX, Castor, XStream, and XML Beans. (depends on spring-core, spring-beans,
-         spring-context) Define this if you need OXM (org.springframework.oxm.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-oxm</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Web application development utilities applicable to both Servlet and
-         Portlet Environments (depends on spring-core, spring-beans, spring-context)
-         Define this if you use Spring MVC, or wish to use Struts, JSF, or another
-         web framework with Spring (org.springframework.web.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Spring MVC for Servlet Environments (depends on spring-core, spring-beans,
-         spring-context, spring-web) Define this if you use Spring MVC with a Servlet
-         Container such as Apache Tomcat (org.springframework.web.servlet.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Spring MVC for Portlet Environments (depends on spring-core, spring-beans,
-         spring-context, spring-web) Define this if you use Spring MVC with a Portlet
-         Container (org.springframework.web.portlet.*) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc-portlet</artifactId>
-            <version>${org.springframework.version}</version>
-        </dependency>
-
-        <!-- Support for testing Spring applications with tools such as JUnit and
-         TestNG This artifact is generally always defined with a 'test' scope for
-         the integration testing framework and unit testing stubs -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>${org.springframework.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <!--spring-3.1.2.RELEASE-->
-        <!--spring-3.2.10.RELEASE-->
-        <!--spring-3.1.3.RELEASE-->
-        <!--spring-4.2.5.RELEASE-->
-        <!--aop,asm,aspects,beans,context,context-support,core,expression,jdbc,jms,messaging,orm,oxm,test,transaction,tx,web,webmvc,websocket-->
-        <!--(3.1.3):security-cas,security-config,-core,-crypto,-taglibs, -web-->
 
         <!--http://clojars.org/repo/-->
         <dependency>
@@ -1898,6 +1772,15 @@ http://clojars.org/repo/
             <artifactId>javase</artifactId>
             <version>3.3.0</version>
         </dependency>
+
+<!-- Missing artifact jdk.tools:jdk.tools:jar:1.6 https://www.cnblogs.com/gyjx2016/p/5925026.html -->
+ <dependency>
+            <groupId>jdk.tools</groupId>
+            <artifactId>jdk.tools</artifactId>
+            <version>1.8</version>
+            <scope>system</scope>
+            <systemPath>C:\Program Files\Java\jdk1.8.0_191\lib\tools.jar</systemPath>
+</dependency>
 
     </dependencies>
 
